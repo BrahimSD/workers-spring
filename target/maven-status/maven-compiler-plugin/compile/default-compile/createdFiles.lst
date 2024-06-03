@@ -1,14 +1,7 @@
-demo/controller/UserRestController.class
 demo/controller/RegisteryController.class
 demo/controller/LoadBalancer$1.class
 demo/model/Worker.class
 demo/DemoApp.class
 demo/controller/LoadBalancer.class
-demo/controller/LoginService.class
 demo/controller/WorkerRepository.class
-demo/controller/LoginController.class
-demo/controller/UserRepository.class
 demo/controller/WorkerController.class
-demo/controller/ProxyUserRepository.class
-demo/controller/UserSession.class
-demo/model/User.class

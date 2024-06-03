@@ -1,11 +1,12 @@
 package demo.model;
 
 import jakarta.persistence.*;
-
+import java.time.LocalDateTime;
 @Entity
 public class Worker {
     @Id
     private String hostname;
+    private LocalDateTime lastManfTime;
 
     public Worker() {
     }
@@ -18,5 +19,13 @@ public class Worker {
     }
     public void setHostname(String hostname) {
         this.hostname = hostname;
+    }
+
+    public LocalDateTime getLastManifestTime() {
+        return lastManfTime;
+    }
+
+    public void setLastManifestTime(LocalDateTime lastManfTime) {
+        this.lastManfTime = lastManfTime;
     }
 }
