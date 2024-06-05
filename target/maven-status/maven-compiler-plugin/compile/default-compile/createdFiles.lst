@@ -1,5 +1,4 @@
 demo/controller/RegisteryController.class
-demo/controller/LoadBalancer$1.class
 demo/model/Worker.class
 demo/DemoApp.class
 demo/controller/LoadBalancer.class
