@@ -71,5 +71,5 @@ public class LoadBalancer {
 
         return ResponseEntity.ok("Workers successfully updated");
     }
-    //test 
+    //test2
 }
